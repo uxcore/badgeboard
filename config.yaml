@@ -6,51 +6,70 @@ name: jshttp
 badge_style: flat-square
 
 # meta headers in html
-title:       BadgeBoard
+title:       UXCore Badgeboard
 description: project status at a glance
-keywords:    badgeboard, repo-utils
+keywords:    UXCore, badgeboard, repo-utils
 
 # list of projects, this will be sorted by name;
 # every package is either string or object
 projects:
- - on-headers
- - on-finished
- - vary
- - mime-db:
-     node: 0.6   # you can override stuff from db.json here, i.e. node version
+ - uxcore-alert
+ - uxcore-button
+ - uxcore-calendar
+ - uxcore-carousel
+ - uxcore-checkbox-group
+ - uxcore-collapse
+ - uxcore-const
+ - uxcore-crumb
+ - uxcore-dialog
+ - uxcore-dropdown
+ - uxcore-employee-search
+ - uxcore-form
+ - uxcore-ganttchart
+ - uxcore-grid
+ - uxcore-hovercard
+ - uxcore-layout
+ - uxcore-mention
+ - uxcore-menu
+ - uxcore-message
+ - uxcore-multi-select
+ - uxcore-pagination
+ - uxcore-pickable
+ - uxcore-primary-nav
+ - uxcore-progress
+ - uxcore-radiogroup
+ - uxcore-select2
+ - uxcore-steps
+ - uxcore-table
+ - uxcore-tabs
+ - uxcore-timeline
+ - uxcore-tinymce
+ - uxcore-tooltip
+ - uxcore-totop
+ - uxcore-transfer
+ - uxcore-tree
+ - uxcore-uploader
+ - uxcore-validator
 
 # list of maintainers, this won't be sorted
 maintainers:
- - name:    Doug Wilson
-   github:  dougwilson   # github account, required: we link to it
-   npm:     dougwilson   # npm account, required to determine lead maintainer
-   twitter: blipsofadoug # twitter account, optional
-   gittip:  dougwilson   # gittub badge, optional
-   email:   doug@somethingdoug.com
+ - name:    Guang Hong
+   github:  macisi       # github account, required: we link to it
+   npm:             # npm account, required to determine lead maintainer
+   twitter:  # twitter account, optional
+   gittip:     # gittub badge, optional
+   email:   macisi528@gmail.com
 
- - name:    Jonathan Ong
-   github:  jonathanong
-   npm:     jongleberry
-   twitter: jongleberry
-   gittip:  jonathanong
-   email:   me@jongleberry.com
+ - name:    Zhou Quan
+   github:  majorye
+   npm:     
+   twitter: 
+   gittip:  
+   email:   major.yezhouquan@gmail.com
 
    # if gravatar is attached to an email different from specified above,
    # add md5 of it here:
-   avatar:  6e33cc0412b61cc01daac23c8989003c
-
- - name:    Jeremiah Senkpiel
-   github:  fishrock123
-   npm:     fishrock123
-   twitter: fishrock123
-   gittip:  Fishrock123
-   email:   fishrock123@rocketmail.com
-
- - name:    Alex Kocharin
-   github:  rlidwka
-   npm:     rlidwka
-   twitter: rlidwka
-   email:   alex@kocharin.ru
+   # avatar:  6e33cc0412b61cc01daac23c8989003c
 
 # this determines what info will be fetched with `make db`;
 # you can comment out stuff to reduce number of http requests
