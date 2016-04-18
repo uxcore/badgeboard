@@ -1,5 +1,5 @@
 # organization name, it's used to get github repo url, also in page title
-name: jshttp
+name: uxcore
 
 # badge style, can be "flat", "flat-square" or ""
 # see http://shields.io/ for details
@@ -23,11 +23,8 @@ projects:
  - uxcore-crumb
  - uxcore-dialog
  - uxcore-dropdown
- - uxcore-employee-search
  - uxcore-form
- - uxcore-ganttchart
  - uxcore-grid
- - uxcore-hovercard
  - uxcore-layout
  - uxcore-mention
  - uxcore-menu
@@ -35,14 +32,12 @@ projects:
  - uxcore-multi-select
  - uxcore-pagination
  - uxcore-pickable
- - uxcore-primary-nav
  - uxcore-progress
  - uxcore-radiogroup
  - uxcore-select2
  - uxcore-steps
  - uxcore-table
  - uxcore-tabs
- - uxcore-timeline
  - uxcore-tinymce
  - uxcore-tooltip
  - uxcore-totop
@@ -53,19 +48,23 @@ projects:
 
 # list of maintainers, this won't be sorted
 maintainers:
- - name:    Guang Hong
-   github:  macisi       # github account, required: we link to it
-   npm:             # npm account, required to determine lead maintainer
+ - name:    eternalsky
+   github:  eternalsky       # github account, required: we link to it
+   npm:     eternalsky        # npm account, required to determine lead maintainer
    twitter:  # twitter account, optional
-   gittip:     # gittub badge, optional
-   email:   macisi528@gmail.com
+   email:   eternalsky@163.com
 
- - name:    Zhou Quan
+ - name:    majorye
    github:  majorye
-   npm:     
+   npm:     majorye
    twitter: 
-   gittip:  
    email:   major.yezhouquan@gmail.com
+
+ - name:    macisi
+   github:  macisi
+   npm:     vincent.bian
+   twitter: 
+   email:   macisi528@gmail.com
 
    # if gravatar is attached to an email different from specified above,
    # add md5 of it here:
@@ -75,7 +74,7 @@ maintainers:
 # you can comment out stuff to reduce number of http requests
 db.json:
   projects:
-   - node        # node version, it's the lowest version from .travis.yml
+   # - node        # node version, it's the lowest version from .travis.yml
    - description # package description from package.json (from npm registry)
    - maintainer  # maintainer npm account (= _npmUser of last published ver)
   maintainers:
